@@ -82,7 +82,7 @@
 		}
 		}
 		
-	let ArcticDataSet = require('./data2.json');
+	let ArcticDataSet = require('./dataSets/arcticBases.json');
 	
 
 	
@@ -92,12 +92,12 @@
 			
 			let lat = parseFloat(s[0]);
 			let log =  parseFloat(s[1])
-			console.log( ArcticDataSet[i].link)
+			
 			let obj = {
 				'type': 'Feature',
 				'properties': {
 				'description':
-				'<strong>'+ArcticDataSet[i].name+' Station</strong><p>Координати:64°19′S 62°57′W</p><p> <a href="https://en.wikipedia.org/'+ArcticDataSet[i].link+'" target="_blank" title="Opens in a new window"> Additional infor about this station </a>  ',
+				'<strong>'+ArcticDataSet[i].name+' Station</strong><p>Координати:64°19′S 62°57′W</p><p>The <a href="https://en.wikipedia.org/'+ArcticDataSet[i].link+'" target="_blank" title="Opens in a new window"> Additional infor about this station </a>  ',
 				'icon': 'harbor'
 				},
 				'geometry': {
