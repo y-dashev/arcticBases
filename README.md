@@ -9,15 +9,17 @@ Used electronjs for building the app with mapboxjs for visualisating the map its
 - When clicking on the icon for the base it will display a pop-up with name of the station and link to wikipedia page for it.
 
 
-# How to run the app
+# How to run the app:
 - clone/download the repository then run the following commands in the root folder
 - run 'npm install' command to install all dependencies
 - run 'npm start' to launch the app and test it
 - run 'npm make' to build the app for distribution/packaging
 
-# Wikiepedia Link Of the Table That Was Extracted
+# Wikiepedia Link Of the Table That Was Extracted:
 https://en.wikipedia.org/wiki/Research_stations_in_Antarctica
 
 
-# Important Notice
+# Important Notice:
 Do not use this map for navigation because data extracted from wikipedia could be incorrect/incomplete
+
+# If you like this project you can always give ti a star or if contribute to it !
