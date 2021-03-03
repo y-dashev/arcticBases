@@ -2,7 +2,7 @@
 Project created for university assignment for the BUlgarian Antarctic Institute of Sofia University.
 Used electronjs for building the app with mapboxjs for visualisating the map itself, also I made a webscraper for wikipedia table elements to colect data and save it into JSON file with all the needed formatting which then it  populate the map.
 
-#Features :
+# Features :
 - ELectron Js for building it as a desktop app.
 - Webscraper made with Python (using beatifoulSoup4) to exctract data from wikipedia tables and save it to JSON file with all the needed formatting /Check the webScraper folder
 - MapboxJs satellite map used to display the map itself.All the 'anchor' icons represent a base  because the antarctic bases are with status of a ships.
