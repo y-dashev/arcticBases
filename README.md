@@ -22,4 +22,4 @@ https://en.wikipedia.org/wiki/Research_stations_in_Antarctica
 # Important Notice:
 Do not use this map for navigation because data extracted from wikipedia could be incorrect/incomplete
 
-# If you like this project you can always give ti a star or if contribute to it !
+# If you like this project you can always give it a star or contribute to it !
