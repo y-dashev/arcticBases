@@ -2,6 +2,8 @@
 Project created for university assignment for the BUlgarian Antarctic Institute of Sofia University.
 Used electronjs for building the app with mapboxjs for visualisating the map itself, also I made a webscraper for wikipedia table elements to colect data and save it into JSON file with all the needed formatting which then it  populate the map.
 
+# You can download the prebuild version here: https://github.com/y-dashev/antarctic-bases
+
 # Features :
 - ELectron Js for building it as a desktop app.
 - Webscraper made with Python (using beatifoulSoup4) to exctract data from wikipedia tables and save it to JSON file with all the needed formatting /Check the webScraper folder
