@@ -2,19 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Change a map's style</title>
+<title>Antarctica Bases</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
-<link href="./index.css" rel="stylesheet"/>
-<script type="text/javascript" src="data.json"></script>
+<link href="./styles/index.css" rel="stylesheet"/>
 </head>
 <body>
-<div id="map"></div>
+		<div class="map-container">
+			<div id="map"></div>
+		</div>
+		<div class="main-container">
+			<div class="content">
+				<h3>Antarctica Base Marker Map</h3>
+				<section>
+					<p>This map indicates all the Antarctica Bases</p>
+					<p>The grey line shows the Antarctic Convergence</p>
+					<h5>Quick Info</h5>
+					<p>Used electronjs for building the app with mapboxjs for visualisating the map itself, also I made a webscraper for wikipedia table elements to colect data and save it into JSON file with all the needed formatting which then it  populate the map.</p>
+				</section>
+			</div>
+		</div>	
 <script>
-	require('./scripts.js')
+	require('./scripts/scripts.js')
 </script>
 
 </body>
